@@ -1,0 +1,5 @@
+{
+    "files.autoSave": "off",
+    "livePreview.autoRefreshPreview": "On Changes to Saved Files",
+    "liveServer.settings.port": 0
+}
