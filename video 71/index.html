@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert & Remove</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Hey i am a box.</div>
+        <div class="box">Hey i am another box.</div>
+        ** refer the notes.
+    </div>
+    <script>
+        let div = document.createElement("div");
+        div.innerHTML = "I have been inserted using <b>JS</b>.";
+        div.setAttribute("class", "created");
+
+        // inserts before the div
+        document.querySelector(".container").before(div);
+
+        // inserts after the div
+        // document.querySelector(".container").before(div);
+        
+        // inserts in the end of the div
+        // document.querySelector(".container").appnd(div);
+
+        // inserts in the statr of the div
+        // document.querySelector(".container").prepend(div);
+
+        let cont = document.querySelector(".container");
+        cont.insertAdjacentHTML("afterbegin", "<b> I am under the water joghafga, Please help meeehhhh! </b>");
+    </script>
+</body>
+</html>
