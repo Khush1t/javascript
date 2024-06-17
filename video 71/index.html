@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insert & Remove</title>
+    <style>
+        .red{
+            color: red;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -30,6 +35,17 @@
 
         let cont = document.querySelector(".container");
         cont.insertAdjacentHTML("afterbegin", "<b> I am under the water joghafga, Please help meeehhhh! </b>");
+
+        document.querySelector(".created").remove();
+        document.querySelector(".container").classList;
+        
+        document.querySelector(".box").classList.add("red");
+
+        // toggles it off
+        document.querySelector(".box").classList.toggle("red");
+
+        // toggles it back on
+        document.querySelector(".box").classList.toggle("red");
     </script>
 </body>
 </html>
