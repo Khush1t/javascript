@@ -45,3 +45,12 @@ console.log(a);
 
 let l = new Lion("Bagheera")
 console.log(l);
+
+// returns true
+l instanceof Lion;
+
+// returns true
+l instanceof Animal;
+
+// returns false
+a instanceof Lion
